@@ -42,8 +42,9 @@ const router = useRouter()
      } , [user])
 
   return (
-    <div className='bg-slate-400 flex justify-center items-center '>
-
+    <div className='bg-slate-400 w-screen h-screen flex justify-center items-center '>
+        <div className='bg-blue-500 h-auto w-auto'>
+        </div>
     </div>
   )
 }
